@@ -1,0 +1,6 @@
+<div class="my-block" ng-class="[{selected: $ctrl.block.selected}, $ctrl.block.color]" 
+	 ng-click="$ctrl.changeState($ctrl.block)" ng-dblclick="$ctrl.changeColor($ctrl.block)">
+
+	<div class="my-block-close" ng-click="$ctrl.delete($event)" title="Удалить блок"></div>
+	{{$ctrl.block.text}}
+</div>

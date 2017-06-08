@@ -1,0 +1,77 @@
+body {
+    background-color: aliceblue;
+    padding: 10px 5%;
+    margin: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.controls {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.controls button {
+	padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.controls label {
+    cursor: pointer;
+    padding: 5px 10px 7px 7px;
+    background-color: lightgray;
+    margin-right: 15px;
+}
+
+.controls input {
+	vertical-align: top;
+    margin-top: 7px;
+}
+
+.controls label.red {
+	background-color: lightcoral;
+}
+
+.status {
+	padding: 6px 5px;
+	float: right;
+}
+
+.status-all {
+	margin-right: 20px;
+}
+
+.my-block {
+	background-color: lightgrey;
+	border: 2px solid lightgrey;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.my-block-close {
+	position: absolute;
+    top: 8px;
+    right: 7px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/clear-button.svg);
+    cursor: pointer;
+}
+
+.my-block.red {
+	background-color: lightcoral;
+	border-color: lightcoral;
+}
+
+.my-block.green {
+	background-color: lightgreen;
+	border-color: lightgreen;
+}
+
+.my-block.selected {
+	border: 2px solid black;
+}

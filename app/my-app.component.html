@@ -1,0 +1,7 @@
+<my-controls on-add="$ctrl.addBlock(block)"></my-controls>
+<my-status blocks="$ctrl.blocks"></my-status>
+
+<div class="clearfix"></div>
+
+<my-block ng-repeat="block in $ctrl.blocks" block="block" 
+		  on-delete="$ctrl.deleteBlock(block)"></my-block>
